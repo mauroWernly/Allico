@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+ul.link-item li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul.link-item li a{
+    color: #000000;
+}
+
+.link-item-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.brand-name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.left-column{
+    background-color:#000000;
+    min-height: 100vh;
+}
+
+.number-size{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
