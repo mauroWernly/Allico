@@ -30,11 +30,36 @@ ul.link-item li a{
 
 .left-column{
     background-color:#000000;
-    min-height: 100vh;
+    min-height: calc(100vh - 90px);
+}
+
+.rigth-column{
+    min-height: calc(100vh - 90px);
+    background-color: #ffffff;
+}
+
+.left-column-bar{
+    background-color: #000000;
+    min-height: 90px;
+}
+
+.rigth-column-bar{
+    background-color: #ffffff;
+    min-height: 90px;
 }
 
 .number-size{
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    list-style-type: none;
+}
+
+.black-column{
+    align-items: center;
+    flex-direction: row;
+}
+
+.size-container{
+    margin-left: 20px;
 }
