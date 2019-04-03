@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
 
 ul.link-item li{
     font-family: 'Open Sans', sans-serif;
@@ -161,4 +161,38 @@ a.story-link:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.yellow-girl{
+    width: 250px;
+    margin-left: -400px;
+    margin-bottom: 100px;
+}
+
+.my-story-box{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.side-word{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 73px;
+    position: absolute;
+    transform: rotate(-90deg);
+    right: auto;
+    left: -100px;
+    top: 166px;
+    bottom: auto;
+}
+
+ul li a.nav-link:hover::after{
+    content: '';
+    background-color: #131313;
+    width: 60%;
+    height: 3px;
+    border-radius: 5px;
+    display: block;
+    transition: ease-in-out .3s;
 }
