@@ -196,3 +196,19 @@ ul li a.nav-link:hover::after{
     display: block;
     transition: ease-in-out .3s;
 }
+
+.menu-right-bar{
+    width: 75px;
+    height: 75px;
+    background-color: #f8f8f8;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburguer-menu{
+    width: 30px;
+}
+
+.navbar-right{
+    height: calc(100% + 90px)
+}
