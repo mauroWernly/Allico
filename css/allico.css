@@ -207,6 +207,7 @@ ul li a.nav-link:hover::after {
     background-color: #f8f8f8;
     justify-content: center;
     align-items: center;
+    border: transparent;
 }
 
 .hamburguer-menu{
@@ -231,5 +232,27 @@ a.r-menu-link:hover{
 }
 
 .nav-r-menu{
+    position: absolute;
+    width: calc(100vh - 90px);
+    top: auto;
+    right: 50px;
+    bottom: 0;
+    left: auto;
+    justify-content: center;
     transform: rotate(90deg);
+    transform-origin: 100% 100%;
+}
+
+.r-menu-link::after{
+    content: '';
+    background-color: transparent;
+    width: 60%;
+    height: 3px;
+    border-radius: 3px;
+    display: block;
+    transition: ease-in-out .3s;
+}
+
+.r-menu-link:hover::after {
+    background-color: #131313;
 }
