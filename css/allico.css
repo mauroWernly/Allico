@@ -241,9 +241,11 @@ ul li a.nav-link:hover::after {
 }
 
 @media (max-width:375px){
-    li.number-size::after{
-       background-color: transparent;
+    li.number-size::after,
+    li.number-size:hover::after{
+       display: none;
     }
+    
 }
 
 .menu-right-bar{
