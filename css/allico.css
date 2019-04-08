@@ -74,6 +74,25 @@ ul.link-item li a{
     margin-bottom: auto;
 }
 
+@media(max-width:375px){
+    .size-container ul{
+        text-align: center;
+        padding: 0;
+
+    }
+    .number-size{
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        position: relative;
+        margin-bottom: 30px;
+        opacity: .6;
+        display: inline-block;
+        margin: 0 20px;
+    }
+}
+
 li.number-size::after{
     content: '';
     width: 40px;
@@ -117,6 +136,12 @@ li.number-size:hover::after{
 
 .black-btm-container{
     margin-bottom: 30px;
+}
+
+@media (max-width:375px){
+    .black-btm-container{
+        text-align: center; 
+    }
 }
 
 .story-btn{
@@ -165,8 +190,22 @@ a.story-link:hover{
 
 .yellow-girl{
     width: 250px;
+    height: 100%;
     margin-left: -400px;
     margin-bottom: 100px;
+}
+
+@media (max-width:375px) {
+    .yellow-girl{
+        width: 290px;
+        height: auto;
+        margin-left: 100px;
+        margin-bottom: 100px;
+        align-self: flex-start;
+        flex-direction: row;
+        display: block;
+        overflow: hidden;
+    }
 }
 
 .my-story-box{
@@ -199,6 +238,12 @@ ul li a.nav-link::after{
 
 ul li a.nav-link:hover::after {
     background-color: #131313;
+}
+
+@media (max-width:375px){
+    li.number-size::after{
+       background-color: transparent;
+    }
 }
 
 .menu-right-bar{
